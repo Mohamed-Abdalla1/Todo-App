@@ -1,0 +1,40 @@
+body{
+    width: 100%;
+    height: 600px;
+   background-color: rgb(17, 16, 16);
+}
+
+h1{
+    text-align: center;
+    color: rgb(122, 7, 103);
+    margin-bottom: 30px;
+}
+.card{
+    background-color: rgb(85, 5, 78);
+    color: white;
+}
+.b1{
+transition: all 1s;
+}
+.b1:hover{
+    background-color: rgb(161, 68, 133);
+    color: rgb(241, 247, 241);
+    border-radius: 50%;
+}
+
+.none{
+    display: none;
+}
+.b2{
+    padding: 3px;
+    transition: all 1s;
+}
+.b2:hover{
+    background-color: rgb(85, 5, 78);
+    border-radius: 30%;
+}
+.checked{
+    background-color: rgb(161, 68, 133);
+    text-decoration: line-through;
+}
+ 
